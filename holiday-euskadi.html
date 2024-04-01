@@ -1,0 +1,144 @@
+<script type="text/javascript">
+    RED.nodes.registerType('holiday-euskadi',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},
+            territory: { value: ""},
+            municipality: { value: ""},
+            weekend: { value: "6,0" } // Saturday and Sunday
+        },
+        inputs: 1,
+        inputLabels: ['timestamp'],
+        outputs: 3,
+        outputLabels: ['Is holiday', 'Is not holiday', 'Error'],
+        icon: "font-awesome/fa-calendar",
+        label: function() {
+            return this.name||"holiday-euskadi";
+        },
+        oneditprepare: function () {
+            // Territory
+            var territory_code = $('#node-input-territory').val();
+            if (territory_code !== "") {
+                $('#territory-select').val(territory_code);
+            }
+
+            // Municipality
+            if (territory_code === "") {
+                $('#municipality-select').prop('disabled', 'disabled');
+                $('#node-input-municipality').val("");
+            } else {
+                $.ajax({
+                    url: "https://api-calendario-laboral.online/api/v1/municipalities"
+                }).then(function(data) {
+                    data.forEach((item) => {
+                        if (item.territory_code === territory_code) {
+                            $('#municipality-select').append($('<option>', {value: item.municipality_code, text: item.municipality_name_es}));
+                        }
+                    });
+
+                    var municipality_code = $('#node-input-municipality').val();
+                    if (municipality_code !== "") {
+                        $('#municipality-select').val(municipality_code);
+                    }
+                });
+            }
+
+            // Weekend checkboxes.
+            $("#weekend-row input[type=checkbox]").removeAttr("checked");
+            this.weekend.split(",").forEach(function (v) {
+                $("#weekend-row [value=" + v + "]").prop("checked", true);
+            });
+        },
+        oneditsave: function () {
+            // Territory
+            var territory_code = $('#territory-select').val();
+            $('#node-input-territory').val(territory_code);
+
+            // Municipality
+            var municipality_code = $('#municipality-select').val();
+            $('#node-input-municipality').val(municipality_code);
+
+            // Weekend checkboxes
+            var days = $('#weekend-row input[type=checkbox]:checked').map(function (_, el) {
+                return $(el).val()
+            }).get();
+
+            if (days.length == 0)
+                this.weekend = "";
+            else
+                this.weekend = days.join(",");
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="holiday-euskadi">
+
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+
+    <div class="form-row choose-text">
+        <label for=""><i class="fa fa-map"></i> <span>Provincia</span></label>
+        <select id="territory-select">
+            <option selected disabled hidden>Seleccione la provincia</option>
+            <option value="01">Araba</option>
+            <option value="20">Gipuzkoa</option>
+            <option value="48">Bizkaia</option>
+        </select>
+        <input type="hidden" id="node-input-territory">
+    </div>
+
+    <div class="form-row choose-text">
+        <label for=""><i class="fa fa-map"></i> <span>Municipio</span></label>
+        <select id="municipality-select">
+            <option selected disabled hidden>Seleccione el municipio</option>
+        </select>
+        <input type="hidden" id="node-input-municipality">
+    </div>
+
+    <div class="form-row weekend-row" id="weekend-row">
+        <label>Weekend</label>
+        <div class="weekend-days">
+            <div>
+                <label><input type='checkbox' checked value='1'/> Lunes</span></label>
+                <label><input type='checkbox' checked value='2'/> Martes</span></label>
+                <label><input type='checkbox' checked value='3'/> Miércoles</span></label>
+            </div>
+            <div>
+                <label><input type='checkbox' checked value='4'/> Jueves</span></label>
+                <label><input type='checkbox' checked value='5'/> Viernes</span></label>
+                <label><input type='checkbox' checked value='6'/> Sábado</span></label>
+            </div>
+            <div>
+                <label><input type='checkbox' checked value='0'/> Domingo</span></label>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            $('#territory-select').on('change', function() {
+                var territory_code = $('#territory-select').val();
+                $('#municipality-select').empty().append('<option selected disabled hidden>Seleccione el municipio</option>');
+                
+                $.ajax({
+                    url: "https://api-calendario-laboral.online/api/v1/municipalities"
+                }).then(function(data) {
+                    data.forEach((item) => {
+                        if (item.territory_code === territory_code) {
+                            $('#municipality-select').append($('<option>', {value: item.municipality_code, text: item.municipality_name_es}));
+                        }
+                    });
+                });
+    
+                $('#municipality-select').prop('disabled', false);
+            });
+        });
+    </script>
+</script>
+
+<script type="text/html" data-help-name="holiday-euskadi">
+    <p>A simple node that converts the message payloads into all lower-case characters</p>
+</script>
