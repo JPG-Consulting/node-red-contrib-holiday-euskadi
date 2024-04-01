@@ -1,6 +1,6 @@
 {
     "name" : "node-red-contrib-holiday-euskadi",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "Node Red node for checking holidays in Euskadi.",
     "author": "Juan Pedro Gonzalez",
     "license": "GPL-3.0",
@@ -14,9 +14,7 @@
         "type": "git",
         "url": "https://github.com/JPG-Consulting/node-red-contrib-holiday-euskadi.git"
     },
-    "dependencies": {
-        "axios": "^1.6.8"
-    },
+    "dependencies": {},
     "node-red" : {
         "version": ">=2.0.0",
         "nodes": {
