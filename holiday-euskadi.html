@@ -1,11 +1,35 @@
 <script type="text/javascript">
+    /**
+     * Validación para las provincias de Euskadi.
+     */
+    var territoryParameterValidator = function(node, value) {
+        // Sólo admitimos los código de las proviencias de Euskadi.
+        if ((typeof value !== 'string') && (!(value instanceof String ))) {
+            return false;
+        }
+
+        return ((value === '01') || (value == '20') || (value == '48'));
+    }
+
+    var municipalityParameterValidator = function(node, value) {
+        // ToDo: Validar el municipio.
+        return true;
+    }
+
+    /**
+     * Registramos el nodo 'holiday-euskadi'. 
+     */
     RED.nodes.registerType('holiday-euskadi',{
         category: 'function',
         color: '#a6bbcf',
         defaults: {
             name: {value:""},
-            territory: { value: ""},
-            municipality: { value: ""},
+            territory: { value: "", required: true, validate: function(v) {
+                return territoryParameterValidator(this, v);
+            }},
+            municipality: { value: "", required: true, validate: function(v) {
+                return municipalityParameterValidator(this, v);
+            }},
             weekend: { value: "6,0" } // Saturday and Sunday
         },
         inputs: 1,
@@ -19,14 +43,11 @@
         oneditprepare: function () {
             // Territory
             var territory_code = $('#node-input-territory').val();
-            if (territory_code !== "") {
-                $('#territory-select').val(territory_code);
-            }
 
             // Municipality
             if (territory_code === "") {
                 $('#municipality-select').prop('disabled', 'disabled');
-                $('#node-input-municipality').val("");
+                $('#municipality-select').val("");
             } else {
                 $.ajax({
                     url: "https://api-calendario-laboral.online/api/v1/municipalities"
@@ -51,10 +72,6 @@
             });
         },
         oneditsave: function () {
-            // Territory
-            var territory_code = $('#territory-select').val();
-            $('#node-input-territory').val(territory_code);
-
             // Municipality
             var municipality_code = $('#municipality-select').val();
             $('#node-input-municipality').val(municipality_code);
@@ -81,13 +98,12 @@
 
     <div class="form-row choose-text">
         <label for=""><i class="fa fa-map"></i> <span>Provincia</span></label>
-        <select id="territory-select">
+        <select id="node-input-territory">
             <option selected disabled hidden>Seleccione la provincia</option>
-            <option value="01">Araba</option>
+            <option value="01">Álava - Araba</option>
             <option value="20">Gipuzkoa</option>
             <option value="48">Bizkaia</option>
         </select>
-        <input type="hidden" id="node-input-territory">
     </div>
 
     <div class="form-row choose-text">
@@ -95,7 +111,7 @@
         <select id="municipality-select">
             <option selected disabled hidden>Seleccione el municipio</option>
         </select>
-        <input type="hidden" id="node-input-municipality">
+        <input type="hidden" id="node-input-municipality" />
     </div>
 
     <div class="form-row weekend-row" id="weekend-row">
@@ -119,8 +135,8 @@
 
     <script type="text/javascript">
         $( document ).ready(function() {
-            $('#territory-select').on('change', function() {
-                var territory_code = $('#territory-select').val();
+            $('#node-input-territory').on('change', function() {
+                var territory_code = $('#node-input-territory').val();
                 $('#municipality-select').empty().append('<option selected disabled hidden>Seleccione el municipio</option>');
                 
                 $.ajax({
@@ -128,7 +144,7 @@
                 }).then(function(data) {
                     data.forEach((item) => {
                         if (item.territory_code === territory_code) {
-                            $('#municipality-select').append($('<option>', {value: item.municipality_code, text: item.municipality_name_es}));
+                            $('municipality-select').append($('<option>', {value: item.municipality_code, text: item.municipality_name_es}));
                         }
                     });
                 });
