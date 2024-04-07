@@ -29,78 +29,55 @@
                 return;
             }
 
-            // Obtenemos el día de la semana para determinar si es fin de semana.
+			// Obtenemos el día de la semana para determinar si es fin de semana.
             var dayOfWeek = currentDate.getDay().toString();
-            var isWeekend = config.weekend.split(",").includes(dayOfWeek);
-
-            // Si es fin de semana...
-            if(isWeekend) {
-                const weekDayNames = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+            msg.weekend = config.weekend.split(",").includes(dayOfWeek);
+			
+			if (msg.weekend) {
+				const weekDayNames = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
 
                 msg.holiday = weekDayNames[dayOfWeek];
-                msg.weekend = true;
+			} else {
+				msg.holiday = '';
+			}
 
-                // Es fin de semana así que lo devolvemos por la primera salida.
-                node.send([msg, null, null]);
-                return;
-            } 
+            var territory = null;
+            switch(config.territory) {
+                case '01':
+                    territory = 'Álava - Araba';
+                    break;
+                case '20':
+                    territory = 'Gipuzkoa';
+                    break; 
+                case '48':
+                    territory = 'Bizkaia';
+                    break;
+                default:
+                    msg.error = 'No se ha establecido un territorio.';
+                    node.send([null, null, msg]);
+                    return;
+            }
 
-            // Si llegamos aquí no era un fin de semana.
-            msg.weekend = false;
-            msg.holiday = ""
+            // El municipio, por el API, trae el codigo de territorio por delante.
+            var municipality = parseInt(config.municipality.substring(2));
 
-            // 
-            // Llamada al servicio.
-            //
-            var szYear = currentDate.getFullYear().toString();
-            var szMonth = (currentDate.getMonth() + 1).toString();
-            var szDate = currentDate.getDate().toString();
-
-            var holidayFound = false;
-
-            var requestUri = 'https://api-calendario-laboral.online/api/v1/festivities/bydate/' + szYear + '/' + szMonth + '/' + szDate; 
-
-            fetch(requestUri)
-                .then((response) => response.text())
-                .then((body) => {
-                    // Procesamos
-                    try
-                    {
-                        var jsonBody = JSON.parse(body);
-
-                        if (jsonBody.length === 0) {
-                            node.send([null, msg, null]);
-                            return;
+			const OpenDataEuskadi = require('./libs/OpenDataEuskadi.js');
+		    OpenDataEuskadi.getCalendarioLaboral(currentDate, { date: true, territory: territory, municipality: municipality })
+				.then((holidays) => {
+					if ((holidays.length === 0)	&& (!msg.weekend)) {
+						node.send([null, msg, null]);
+					} else {
+                        if (holidays.length > 0) {
+                            msg.holiday = holidays[0].descriptionEs;
                         }
 
-                        jsonBody.forEach(element => {
-                            var items = element.items;
-
-                            if(typeof items !== 'undefined') {
-                                items.forEach(item => {
-                                    if ((item.municipality_code === config.municipality) || (item.municipality_code === config.territory) || (item.municipality_code === "16")) {
-                                        holidayFound = true;
-                                        msg.holiday = item.festivity_name_es;
-                                    }
-                                });
-                            }
-                        });
-                    }
-                    catch(error)
-                    {
-                        msg.error = error;
-                        node.send([null, null, msg]);
-                        return;
-                    }
-                    
-                    if (holidayFound)
-                    node.send([msg, null, null]);
-                    else
-                        node.send([null, msg, null]);
-                }).catch((error) => {
-                    msg.error = error;
-                    node.send([null, null, msg]);
-                }); 
+						node.send([msg, null, null]);
+					}
+				})
+				.catch((error) => {
+					msg.error = error;
+					node.send([null, null, msg]);
+				});
         });
     }
     RED.nodes.registerType("holiday-euskadi", HolidayEuskadiNode);

@@ -1,0 +1,170 @@
+[
+    {
+        "id": "02cf85fdd1d93d61",
+        "type": "tab",
+        "label": "Flujo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2a3c35b90beee349",
+        "type": "holiday-euskadi",
+        "z": "02cf85fdd1d93d61",
+        "name": "",
+        "territory": "48",
+        "municipality": "48020",
+        "weekend": "6,0",
+        "x": 380,
+        "y": 220,
+        "wires": [
+            [
+                "ed507a3169a873bc"
+            ],
+            [
+                "02852465224ac205"
+            ],
+            [
+                "cfd573a5fce8505d"
+            ]
+        ]
+    },
+    {
+        "id": "da5f9ce093690949",
+        "type": "inject",
+        "z": "02cf85fdd1d93d61",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "2a3c35b90beee349"
+            ]
+        ]
+    },
+    {
+        "id": "b3daaaa5fa035679",
+        "type": "inject",
+        "z": "02cf85fdd1d93d61",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2024/03/29",
+        "payloadType": "str",
+        "x": 120,
+        "y": 220,
+        "wires": [
+            [
+                "2a3c35b90beee349"
+            ]
+        ]
+    },
+    {
+        "id": "e0f3ff3d91df8030",
+        "type": "inject",
+        "z": "02cf85fdd1d93d61",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2024/8/23",
+        "payloadType": "str",
+        "x": 120,
+        "y": 300,
+        "wires": [
+            [
+                "2a3c35b90beee349"
+            ]
+        ]
+    },
+    {
+        "id": "ed507a3169a873bc",
+        "type": "debug",
+        "z": "02cf85fdd1d93d61",
+        "name": "debug Festivo",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "02852465224ac205",
+        "type": "debug",
+        "z": "02cf85fdd1d93d61",
+        "name": "debug Laborable",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "cfd573a5fce8505d",
+        "type": "debug",
+        "z": "02cf85fdd1d93d61",
+        "name": "debug Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 280,
+        "wires": []
+    }
+]

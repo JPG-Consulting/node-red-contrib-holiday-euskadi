@@ -1,7 +1,9 @@
 # node-red-contrib-holiday-euskadi
 Un nodo para comprobar si es un día festivo en un municipio del País Vasco
 
-Utiliza el servicio [API Calendario Laboral](https://api-calendario-laboral.online/)
+Utiliza los datos de [Open Data Euskadi](https://opendata.euskadi.eus/catalogo-datos/?r01kQry=tC:euskadi;tF:opendata;tT:ds_eventos;mO:documentName.LIKE.calendario%20laboral,documentDescription.LIKE.calendario%20laboral;m:documentLanguage.EQ.es;p:Inter).
+
+Utiliza el servicio [API Calendario Laboral](https://api-calendario-laboral.online/) únicamente para obtener los municipios (Buscando la solución)
 
 Tiene 3 salidas:
 1. Si es festivo o fin de semana.
