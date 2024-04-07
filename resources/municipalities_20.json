@@ -1,0 +1,1506 @@
+[ {
+  "id" : "001",
+  "name" : "Abaltzisketa",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 572841.453911954,
+        "y" : 4766515.35907234
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.1056397792989983,
+        "y" : 43.04783913161059
+      }
+    }
+  }
+}, {
+  "id" : "002",
+  "name" : "Aduna",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 577160.169826348,
+        "y" : 4783889.53303363
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0502034406341307,
+        "y" : 43.20384356853118
+      }
+    }
+  }
+}, {
+  "id" : "016",
+  "name" : "Aia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 569168.599274286,
+        "y" : 4787420.91813933
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.1481211503660225,
+        "y" : 43.23641361966907
+      }
+    }
+  }
+}, {
+  "id" : "003",
+  "name" : "Aizarnazabal",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 561973.672326328,
+        "y" : 4789488.95390353
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.2364930087249655,
+        "y" : 43.25565953088904
+      }
+    }
+  }
+}, {
+  "id" : "004",
+  "name" : "Albiztur",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 570184.848246748,
+        "y" : 4775589.86469168
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.1371081156366487,
+        "y" : 43.129795575307256
+      }
+    }
+  }
+}, {
+  "id" : "005",
+  "name" : "Alegia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 573378.423712988,
+        "y" : 4772353.61903126
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0982771301373164,
+        "y" : 43.10035428099739
+      }
+    }
+  }
+}, {
+  "id" : "006",
+  "name" : "Alkiza",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 572417.572918011,
+        "y" : 4780401.83044551
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.109031774450488,
+        "y" : 43.17291107854992
+      }
+    }
+  }
+}, {
+  "id" : "906",
+  "name" : "Altzaga",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 568897.248808619,
+        "y" : 4768330.03823422
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.153837468594238,
+        "y" : 43.0645467252077
+      }
+    }
+  }
+}, {
+  "id" : "007",
+  "name" : "Altzo",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 574577.268970665,
+        "y" : 4772306.05717818
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0835531402622975,
+        "y" : 43.09980901225262
+      }
+    }
+  }
+}, {
+  "id" : "008",
+  "name" : "Amezketa",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 574262.246467492,
+        "y" : 4766646.97652746
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.088179624020092,
+        "y" : 43.04888654937626
+      }
+    }
+  }
+}, {
+  "id" : "009",
+  "name" : "Andoain",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 579584.47917423,
+        "y" : 4785647.31194202
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.020112466496625,
+        "y" : 43.21941799823352
+      }
+    }
+  }
+}, {
+  "id" : "010",
+  "name" : "Anoeta",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 575492.089306171,
+        "y" : 4779162.70269687
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0713791727567443,
+        "y" : 43.16145361621845
+      }
+    }
+  }
+}, {
+  "id" : "011",
+  "name" : "Antzuola",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 550367.943806343,
+        "y" : 4771950.62805997
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.3810619157371344,
+        "y" : 43.09860442628044
+      }
+    }
+  }
+}, {
+  "id" : "012",
+  "name" : "Arama",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 567934.047837908,
+        "y" : 4768219.187222
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.1656793346471925,
+        "y" : 43.06363547057263
+      }
+    }
+  }
+}, {
+  "id" : "013",
+  "name" : "Aretxabaleta",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 540419.056194163,
+        "y" : 4764871.08072233
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.5038265564310986,
+        "y" : 43.03545154795067
+      }
+    }
+  }
+}, {
+  "id" : "055",
+  "name" : "Arrasate/Mondragón",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 541530.96968836,
+        "y" : 4768246.90247463
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.4899256867790434,
+        "y" : 43.065789664612836
+      }
+    }
+  }
+}, {
+  "id" : "014",
+  "name" : "Asteasu",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 573352.926367828,
+        "y" : 4782681.53995191
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.097222903361247,
+        "y" : 43.193346669116956
+      }
+    }
+  }
+}, {
+  "id" : "903",
+  "name" : "Astigarraga",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 585263.9138539,
+        "y" : 4792447.467137
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -1.9491431817722433,
+        "y" : 43.28002074306426
+      }
+    }
+  }
+}, {
+  "id" : "015",
+  "name" : "Ataun",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 567092.280859703,
+        "y" : 4761922.6057694
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.1767745373014526,
+        "y" : 43.00701530298578
+      }
+    }
+  }
+}, {
+  "id" : "017",
+  "name" : "Azkoitia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 555886.4697874,
+        "y" : 4780765.37817307
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.312364114220589,
+        "y" : 43.17758754273855
+      }
+    }
+  }
+}, {
+  "id" : "018",
+  "name" : "Azpeitia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 559656.036218095,
+        "y" : 4781498.47260064
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.265907309016447,
+        "y" : 43.18390022431017
+      }
+    }
+  }
+}, {
+  "id" : "904",
+  "name" : "Baliarrain",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 571027.84391332,
+        "y" : 4768875.62478019
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.127603793529437,
+        "y" : 43.06926269587117
+      }
+    }
+  }
+}, {
+  "id" : "019",
+  "name" : "Beasain",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 565478.633708025,
+        "y" : 4766372.31357473
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.196049407851509,
+        "y" : 43.047221875076644
+      }
+    }
+  }
+}, {
+  "id" : "020",
+  "name" : "Beizama",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 565117.613730304,
+        "y" : 4776010.64261623
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.1993519262470707,
+        "y" : 43.1340370947793
+      }
+    }
+  }
+}, {
+  "id" : "021",
+  "name" : "Belauntza",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 577171.549624641,
+        "y" : 4776220.40668554
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.051132935808792,
+        "y" : 43.13479277742737
+      }
+    }
+  }
+}, {
+  "id" : "022",
+  "name" : "Berastegi",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 583013.492771669,
+        "y" : 4775090.47023343
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -1.9794829347481036,
+        "y" : 43.12400128197134
+      }
+    }
+  }
+}, {
+  "id" : "074",
+  "name" : "Bergara",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 547741.997626683,
+        "y" : 4774029.53196255
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.41314990795206,
+        "y" : 43.117493785280445
+      }
+    }
+  }
+}, {
+  "id" : "023",
+  "name" : "Berrobi",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 579179.679958005,
+        "y" : 4777417.77158778
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0262742305371795,
+        "y" : 43.145365926577185
+      }
+    }
+  }
+}, {
+  "id" : "024",
+  "name" : "Bidania-Goiatz",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 568310.669684013,
+        "y" : 4776652.1127382
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.160016956867122,
+        "y" : 43.13953139727572
+      }
+    }
+  }
+}, {
+  "id" : "029",
+  "name" : "Deba",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 552386.95091793,
+        "y" : 4793682.93551245
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.3541928282977516,
+        "y" : 43.294149792360805
+      }
+    }
+  }
+}, {
+  "id" : "069",
+  "name" : "Donostia / San Sebastián",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 582220.700157276,
+        "y" : 4797049.40886604
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -1.9859557622410358,
+        "y" : 43.321791356582054
+      }
+    }
+  }
+}, {
+  "id" : "030",
+  "name" : "Eibar",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 542796.296057512,
+        "y" : 4781427.26479789
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.4733687537268567,
+        "y" : 43.184402086004134
+      }
+    }
+  }
+}, {
+  "id" : "031",
+  "name" : "Elduain",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 581313.037549972,
+        "y" : 4776944.0727281
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.000112275080822,
+        "y" : 43.14087472460316
+      }
+    }
+  }
+}, {
+  "id" : "033",
+  "name" : "Elgeta",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 541689.478733855,
+        "y" : 4776147.01925614
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.4873858411625975,
+        "y" : 43.13691812502268
+      }
+    }
+  }
+}, {
+  "id" : "032",
+  "name" : "Elgoibar",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 547345.939414943,
+        "y" : 4784784.91966201
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.4170979282385208,
+        "y" : 43.21436405736659
+      }
+    }
+  }
+}, {
+  "id" : "506",
+  "name" : "Enirio-Aralarko Mankomunitatea/Enirio-Aralar"
+}, {
+  "id" : "067",
+  "name" : "Errenteria",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 589307.799393295,
+        "y" : 4796122.2176855
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -1.8987151622324545,
+        "y" : 43.312635676681126
+      }
+    }
+  }
+}, {
+  "id" : "066",
+  "name" : "Errezil",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 567197.741903446,
+        "y" : 4779464.42101526
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.1733594549535575,
+        "y" : 43.16495281364249
+      }
+    }
+  }
+}, {
+  "id" : "034",
+  "name" : "Eskoriatza",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 538564.586122673,
+        "y" : 4762838.58886978
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.5267313753863023,
+        "y" : 43.017245913266045
+      }
+    }
+  }
+}, {
+  "id" : "035",
+  "name" : "Ezkio-Itsaso",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 560397.751679861,
+        "y" : 4769142.78901737
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.2581267392735875,
+        "y" : 43.07258911327764
+      }
+    }
+  }
+}, {
+  "id" : "038",
+  "name" : "Gabiria",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 558640.01814009,
+        "y" : 4766578.36827943
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.279985772117979,
+        "y" : 43.04963627104591
+      }
+    }
+  }
+}, {
+  "id" : "037",
+  "name" : "Gaintza",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 570584.221443208,
+        "y" : 4767119.62556695
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.1332747124725975,
+        "y" : 43.0534931527456
+      }
+    }
+  }
+}, {
+  "id" : "907",
+  "name" : "Gaztelu",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 579577.659541485,
+        "y" : 4774196.9432865
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0218429811066607,
+        "y" : 43.11632522534196
+      }
+    }
+  }
+}, {
+  "id" : "039",
+  "name" : "Getaria",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 564524.94064125,
+        "y" : 4794787.89624268
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.2044432479090488,
+        "y" : 43.303155952034444
+      }
+    }
+  }
+}, {
+  "id" : "505",
+  "name" : "Gipuzkoako Partz. Txikia/Parz. Menor de Gipuzkoa"
+}, {
+  "id" : "040",
+  "name" : "Hernani",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 583114.063800639,
+        "y" : 4790767.09496954
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -1.9758890806244978,
+        "y" : 43.26513231794298
+      }
+    }
+  }
+}, {
+  "id" : "041",
+  "name" : "Hernialde",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 574406.019498821,
+        "y" : 4778404.55256113
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0848390154078276,
+        "y" : 43.154735111118114
+      }
+    }
+  }
+}, {
+  "id" : "036",
+  "name" : "Hondarribia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 597928.763499482,
+        "y" : 4801769.27039649
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -1.791421298075499,
+        "y" : 43.36240071144494
+      }
+    }
+  }
+}, {
+  "id" : "042",
+  "name" : "Ibarra",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 576269.436730562,
+        "y" : 4775833.96287987
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0622766167104634,
+        "y" : 43.13140480352884
+      }
+    }
+  }
+}, {
+  "id" : "043",
+  "name" : "Idiazabal",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 562484.889149052,
+        "y" : 4762537.1105103
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.2332334899701825,
+        "y" : 43.01294110736731
+      }
+    }
+  }
+}, {
+  "id" : "044",
+  "name" : "Ikaztegieta",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 571308.776498998,
+        "y" : 4771722.97705452
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.1237883487837865,
+        "y" : 43.09487363453453
+      }
+    }
+  }
+}, {
+  "id" : "045",
+  "name" : "Irun",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 598178.030559477,
+        "y" : 4799048.06651408
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -1.7888329578566877,
+        "y" : 43.33787046922327
+      }
+    }
+  }
+}, {
+  "id" : "046",
+  "name" : "Irura",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 575785.547916202,
+        "y" : 4779877.50025852
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0676719606342937,
+        "y" : 43.167860040349495
+      }
+    }
+  }
+}, {
+  "id" : "047",
+  "name" : "Itsasondo",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 567965.779333437,
+        "y" : 4768645.03427825
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.16523764162473,
+        "y" : 43.06746696843935
+      }
+    }
+  }
+}, {
+  "id" : "048",
+  "name" : "Larraul",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 572977.739365855,
+        "y" : 4782030.0315494
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.1019259046556034,
+        "y" : 43.18751703618595
+      }
+    }
+  }
+}, {
+  "id" : "902",
+  "name" : "Lasarte-Oria",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 579508.729299508,
+        "y" : 4791083.39079093
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0202609289517,
+        "y" : 43.26836910674331
+      }
+    }
+  }
+}, {
+  "id" : "049",
+  "name" : "Lazkao",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 566240.882284102,
+        "y" : 4764957.38593903
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.1868596618077425,
+        "y" : 43.03441557626043
+      }
+    }
+  }
+}, {
+  "id" : "050",
+  "name" : "Leaburu",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 577125.00789887,
+        "y" : 4775098.76881196
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.05186113074127,
+        "y" : 43.124698686162624
+      }
+    }
+  }
+}, {
+  "id" : "051",
+  "name" : "Legazpi",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 554245.238994209,
+        "y" : 4766632.62898506
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.333938275468888,
+        "y" : 43.05045161810347
+      }
+    }
+  }
+}, {
+  "id" : "052",
+  "name" : "Legorreta",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 569277.119669599,
+        "y" : 4770633.26371255
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.1488856157635468,
+        "y" : 43.08525032617547
+      }
+    }
+  }
+}, {
+  "id" : "068",
+  "name" : "Leintz-Gatzaga",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 535220.352022515,
+        "y" : 4759451.4990476
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.5679847256518036,
+        "y" : 42.98690808763598
+      }
+    }
+  }
+}, {
+  "id" : "053",
+  "name" : "Lezo",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 589284.949088172,
+        "y" : 4797052.87827177
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -1.898845583344193,
+        "y" : 43.32101705591663
+      }
+    }
+  }
+}, {
+  "id" : "054",
+  "name" : "Lizartza",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 578642.339076591,
+        "y" : 4772727.8049366
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0335463508117053,
+        "y" : 43.103195337244145
+      }
+    }
+  }
+}, {
+  "id" : "901",
+  "name" : "Mendaro",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 549881.8532484,
+        "y" : 4789076.0846243
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.385490489281833,
+        "y" : 43.252839248233485
+      }
+    }
+  }
+}, {
+  "id" : "057",
+  "name" : "Mutiloa",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 559246.5366504,
+        "y" : 4763567.18406802
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.2728594078223594,
+        "y" : 43.02247555083982
+      }
+    }
+  }
+}, {
+  "id" : "056",
+  "name" : "Mutriku",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 549702.621425289,
+        "y" : 4795126.04832029
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.387151850641351,
+        "y" : 43.30732576270071
+      }
+    }
+  }
+}, {
+  "id" : "063",
+  "name" : "Oiartzun",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 592440.121858289,
+        "y" : 4794662.23776684
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -1.8603424089900569,
+        "y" : 43.29911334765277
+      }
+    }
+  }
+}, {
+  "id" : "058",
+  "name" : "Olaberria",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 564928.197812345,
+        "y" : 4764175.57985533
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.2030630752160736,
+        "y" : 43.02748941022701
+      }
+    }
+  }
+}, {
+  "id" : "059",
+  "name" : "Oñati",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 547796.892784099,
+        "y" : 4764610.11542332
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.4132848964831273,
+        "y" : 43.032673201776724
+      }
+    }
+  }
+}, {
+  "id" : "076",
+  "name" : "Ordizia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 566835.353051437,
+        "y" : 4767112.88672126
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.179304274370881,
+        "y" : 43.05377183416265
+      }
+    }
+  }
+}, {
+  "id" : "905",
+  "name" : "Orendain",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 572098.402560823,
+        "y" : 4770037.90569199
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.1143055271833413,
+        "y" : 43.079626762856854
+      }
+    }
+  }
+}, {
+  "id" : "060",
+  "name" : "Orexa",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 580435.160327764,
+        "y" : 4771731.79554399
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0116613918993007,
+        "y" : 43.09403948462334
+      }
+    }
+  }
+}, {
+  "id" : "061",
+  "name" : "Orio",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 570851.481778474,
+        "y" : 4791827.44334146
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.126830403393175,
+        "y" : 43.2759321720404
+      }
+    }
+  }
+}, {
+  "id" : "062",
+  "name" : "Ormaiztegi",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 560669.489718368,
+        "y" : 4765850.18301097
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.255148174414305,
+        "y" : 43.04292002360854
+      }
+    }
+  }
+}, {
+  "id" : "504",
+  "name" : "Partzuergo Orokorra/Parzonería general"
+}, {
+  "id" : "064",
+  "name" : "Pasaia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 587567.250998192,
+        "y" : 4797730.07227456
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -1.919918264884574,
+        "y" : 43.327315789318874
+      }
+    }
+  }
+}, {
+  "id" : "070",
+  "name" : "Segura",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 560942.769802006,
+        "y" : 4762048.9241322
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.252208928593999,
+        "y" : 43.00867053571367
+      }
+    }
+  }
+}, {
+  "id" : "065",
+  "name" : "Soraluze-Placencia de las Armas",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 547698.441036406,
+        "y" : 4780325.08359155
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.41314324651031,
+        "y" : 43.17418411604018
+      }
+    }
+  }
+}, {
+  "id" : "071",
+  "name" : "Tolosa",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 575475.38244288,
+        "y" : 4776559.1586604
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0719394162913383,
+        "y" : 43.13801383211743
+      }
+    }
+  }
+}, {
+  "id" : "072",
+  "name" : "Urnieta",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 581961.059339128,
+        "y" : 4788824.19777024
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -1.9903830006569936,
+        "y" : 43.24776616297421
+      }
+    }
+  }
+}, {
+  "id" : "077",
+  "name" : "Urretxu",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 555843.836774955,
+        "y" : 4771388.27438606
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.3138333515674177,
+        "y" : 43.09315710467269
+      }
+    }
+  }
+}, {
+  "id" : "073",
+  "name" : "Usurbil",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 576989.802701183,
+        "y" : 4791327.43898768
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0512617988744046,
+        "y" : 43.27082799804301
+      }
+    }
+  }
+}, {
+  "id" : "075",
+  "name" : "Villabona",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 576898.327264617,
+        "y" : 4782109.87787245
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.053673790266931,
+        "y" : 43.187847065080405
+      }
+    }
+  }
+}, {
+  "id" : "078",
+  "name" : "Zaldibia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 569170.512399796,
+        "y" : 4765412.6979482
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.150844222855405,
+        "y" : 43.0382540774592
+      }
+    }
+  }
+}, {
+  "id" : "079",
+  "name" : "Zarautz",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 566918.458563897,
+        "y" : 4792830.77148043
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.175173651725562,
+        "y" : 43.28532555581664
+      }
+    }
+  }
+}, {
+  "id" : "025",
+  "name" : "Zegama",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 557886.378628809,
+        "y" : 4758363.11547786
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.290091228307956,
+        "y" : 42.97572087785333
+      }
+    }
+  }
+}, {
+  "id" : "026",
+  "name" : "Zerain",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 559361.431382003,
+        "y" : 4762401.37376077
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.2715734972662145,
+        "y" : 43.01196923801892
+      }
+    }
+  }
+}, {
+  "id" : "027",
+  "name" : "Zestoa",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 560187.959325973,
+        "y" : 4787735.69422104
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.2586823849879387,
+        "y" : 43.24001799295114
+      }
+    }
+  }
+}, {
+  "id" : "028",
+  "name" : "Zizurkil",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 575255.348270529,
+        "y" : 4783221.76741584
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.0737386010553376,
+        "y" : 43.198023524007034
+      }
+    }
+  }
+}, {
+  "id" : "081",
+  "name" : "Zumaia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 560151.931544277,
+        "y" : 4794040.12432924
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.2584372666438925,
+        "y" : 43.29678539962911
+      }
+    }
+  }
+}, {
+  "id" : "080",
+  "name" : "Zumarraga",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 555785.667863972,
+        "y" : 4771088.31576625
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.3145781578898736,
+        "y" : 43.09046047059388
+      }
+    }
+  }
+} ]

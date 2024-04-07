@@ -1,0 +1,860 @@
+[ {
+  "id" : "051",
+  "name" : "Agurain/Salvatierra",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 549860.371817565,
+        "y" : 4744386.9194737
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.389757893126267,
+        "y" : 42.850437350926725
+      }
+    }
+  }
+}, {
+  "id" : "001",
+  "name" : "Alegría-Dulantzi",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 539836.427014037,
+        "y" : 4743207.10156583
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.5125198207310673,
+        "y" : 42.84040120906746
+      }
+    }
+  }
+}, {
+  "id" : "002",
+  "name" : "Amurrio",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 499920.07753257,
+        "y" : 4766657.3247549
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -3.0009813810380512,
+        "y" : 43.05261225438839
+      }
+    }
+  }
+}, {
+  "id" : "049",
+  "name" : "Añana",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 501118.972267631,
+        "y" : 4738851.0577167
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.9863154973958608,
+        "y" : 42.80221029855694
+      }
+    }
+  }
+}, {
+  "id" : "003",
+  "name" : "Aramaio",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 535442.653908294,
+        "y" : 4766755.00802264
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.5647937843890913,
+        "y" : 43.052664396903374
+      }
+    }
+  }
+}, {
+  "id" : "006",
+  "name" : "Armiñón",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 510454.356812143,
+        "y" : 4730110.13495763
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.872310055954725,
+        "y" : 42.723423865416684
+      }
+    }
+  }
+}, {
+  "id" : "037",
+  "name" : "Arraia-Maeztu",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 545350.871110923,
+        "y" : 4732063.32039465
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.445938007346703,
+        "y" : 42.73974429489323
+      }
+    }
+  }
+}, {
+  "id" : "008",
+  "name" : "Arratzua-Ubarrundia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 529377.707945881,
+        "y" : 4748645.80996432
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.6402164463111117,
+        "y" : 42.889850807662455
+      }
+    }
+  }
+}, {
+  "id" : "004",
+  "name" : "Artziniega",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 489380.801037225,
+        "y" : 4774343.70814701
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -3.130541609109035,
+        "y" : 43.12175331633769
+      }
+    }
+  }
+}, {
+  "id" : "009",
+  "name" : "Asparrena",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 555728.562716742,
+        "y" : 4748780.71685599
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.317505905846619,
+        "y" : 42.889596694913195
+      }
+    }
+  }
+}, {
+  "id" : "010",
+  "name" : "Ayala/Aiara",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 496524.650832556,
+        "y" : 4769472.24258496
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -3.042691960727689,
+        "y" : 43.07795259532393
+      }
+    }
+  }
+}, {
+  "id" : "501",
+  "name" : "Badaiako mendizerra/Sierra Brava de Badaya"
+}, {
+  "id" : "011",
+  "name" : "Baños de Ebro/Mañueta",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 526318.628501493,
+        "y" : 4708691.43378723
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.679536171167057,
+        "y" : 42.53015701386727
+      }
+    }
+  }
+}, {
+  "id" : "013",
+  "name" : "Barrundia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 541090.579740662,
+        "y" : 4751776.83364831
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.496546257897111,
+        "y" : 42.9175047146251
+      }
+    }
+  }
+}, {
+  "id" : "014",
+  "name" : "Berantevilla",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 511523.571324051,
+        "y" : 4725583.04040794
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.859342723375389,
+        "y" : 42.68263966580048
+      }
+    }
+  }
+}, {
+  "id" : "016",
+  "name" : "Bernedo",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 541102.421327871,
+        "y" : 4719457.79960624
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.498753631423168,
+        "y" : 42.626467822562745
+      }
+    }
+  }
+}, {
+  "id" : "017",
+  "name" : "Campezo/Kanpezu",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 553161.23074452,
+        "y" : 4724371.52792906
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.3512442241305633,
+        "y" : 42.669978530618145
+      }
+    }
+  }
+}, {
+  "id" : "021",
+  "name" : "Elburgo/Burgelu",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 537099.931866324,
+        "y" : 4744284.72697835
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.5459343071797433,
+        "y" : 42.850242948158616
+      }
+    }
+  }
+}, {
+  "id" : "022",
+  "name" : "Elciego",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 531363.581702729,
+        "y" : 4707053.61433088
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.618198285896594,
+        "y" : 42.51521915418591
+      }
+    }
+  }
+}, {
+  "id" : "023",
+  "name" : "Elvillar/Bilar",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 537386.05133108,
+        "y" : 4713081.1218734
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.544491956132699,
+        "y" : 42.56923235456729
+      }
+    }
+  }
+}, {
+  "id" : "503",
+  "name" : "Entzia Partzuergo/Parzonería de Entzia"
+}, {
+  "id" : "046",
+  "name" : "Erriberagoitia/Ribera Alta",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 507579.522899098,
+        "y" : 4739223.97383954
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.907301057199371,
+        "y" : 42.805531855040265
+      }
+    }
+  }
+}, {
+  "id" : "056",
+  "name" : "Harana/Valle de Arana",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 552376.618390929,
+        "y" : 4732616.5256356
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.3600564789710106,
+        "y" : 42.74427848462168
+      }
+    }
+  }
+}, {
+  "id" : "901",
+  "name" : "Iruña Oka/Iruña de Oca",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 515662.651350033,
+        "y" : 4740624.30397567
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.8084044070076395,
+        "y" : 42.818019603178406
+      }
+    }
+  }
+}, {
+  "id" : "027",
+  "name" : "Iruraiz-Gauna",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 542830.320005161,
+        "y" : 4742230.45885588
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.475959177162304,
+        "y" : 42.83144473549976
+      }
+    }
+  }
+}, {
+  "id" : "019",
+  "name" : "Kripan",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 539740.976894299,
+        "y" : 4715580.37377418
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.515626558599092,
+        "y" : 42.59162154536407
+      }
+    }
+  }
+}, {
+  "id" : "020",
+  "name" : "Kuartango"
+}, {
+  "id" : "028",
+  "name" : "Labastida/Bastida",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 516971.130244161,
+        "y" : 4715329.90667693
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.793155934203863,
+        "y" : 42.59020303959309
+      }
+    }
+  }
+}, {
+  "id" : "030",
+  "name" : "Lagrán",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 534084.796585053,
+        "y" : 4719383.00241832
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.584336027467006,
+        "y" : 42.626136698569894
+      }
+    }
+  }
+}, {
+  "id" : "031",
+  "name" : "Laguardia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 534086.173705571,
+        "y" : 4711320.70341715
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.58480139885552,
+        "y" : 42.55353159688111
+      }
+    }
+  }
+}, {
+  "id" : "032",
+  "name" : "Lanciego/Lantziego",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 539990.260446755,
+        "y" : 4712324.27151502
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.5128166413959536,
+        "y" : 42.56228605326681
+      }
+    }
+  }
+}, {
+  "id" : "902",
+  "name" : "Lantarón",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 496076.591890357,
+        "y" : 4733322.11477457
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -3.047942995961977,
+        "y" : 42.75241050519983
+      }
+    }
+  }
+}, {
+  "id" : "033",
+  "name" : "Lapuebla de Labarca",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 535099.107693314,
+        "y" : 4704678.28120394
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.5728710059961553,
+        "y" : 42.493667285637564
+      }
+    }
+  }
+}, {
+  "id" : "036",
+  "name" : "Laudio/Llodio",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 503027.397426243,
+        "y" : 4776725.30020185
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.9627712121900687,
+        "y" : 43.1432676762044
+      }
+    }
+  }
+}, {
+  "id" : "058",
+  "name" : "Legutio",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 529132.621724825,
+        "y" : 4758407.72783616
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.6427101093668015,
+        "y" : 42.97776646619857
+      }
+    }
+  }
+}, {
+  "id" : "034",
+  "name" : "Leza",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 529972.558039826,
+        "y" : 4712586.57658453
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.6348412144922673,
+        "y" : 42.56510214547259
+      }
+    }
+  }
+}, {
+  "id" : "039",
+  "name" : "Moreda de Álava/Moreda Araba",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 548530.164105683,
+        "y" : 4708156.34544302
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.409137788918705,
+        "y" : 42.524262952602854
+      }
+    }
+  }
+}, {
+  "id" : "041",
+  "name" : "Navaridas",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 530826.348022314,
+        "y" : 4710224.23123291
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.6245671553665244,
+        "y" : 42.54379418832131
+      }
+    }
+  }
+}, {
+  "id" : "042",
+  "name" : "Okondo",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 498360.657593627,
+        "y" : 4778704.76113812
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -3.0201653319064583,
+        "y" : 43.161096704981226
+      }
+    }
+  }
+}, {
+  "id" : "043",
+  "name" : "Oyón-Oion",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 546235.10617696,
+        "y" : 4706088.04972335
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.4372462700281363,
+        "y" : 42.505777738473284
+      }
+    }
+  }
+}, {
+  "id" : "044",
+  "name" : "Peñacerrada-Urizaharra",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 523483.582651319,
+        "y" : 4721354.42473153
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.7135344493933795,
+        "y" : 42.644286552182194
+      }
+    }
+  }
+}, {
+  "id" : "047",
+  "name" : "Ribera Baja/Erriberabeitia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 506667.077478019,
+        "y" : 4728864.21837186
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.918582652721618,
+        "y" : 42.71224595870497
+      }
+    }
+  }
+}, {
+  "id" : "052",
+  "name" : "Samaniego",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 526323.642209726,
+        "y" : 4712904.83207025
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.679280928749016,
+        "y" : 42.568101279776606
+      }
+    }
+  }
+}, {
+  "id" : "053",
+  "name" : "San Millán/Donemiliaga",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 555145.892305463,
+        "y" : 4745698.6647836
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.3249438215944727,
+        "y" : 42.86188617789773
+      }
+    }
+  }
+}, {
+  "id" : "054",
+  "name" : "Urkabustaiz",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 508122.908267576,
+        "y" : 4755534.11006087
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.9004194585609144,
+        "y" : 42.95240343308715
+      }
+    }
+  }
+}, {
+  "id" : "055",
+  "name" : "Valdegovía/Gaubea",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 491983.138258544,
+        "y" : 4743961.33237292
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -3.098115114548325,
+        "y" : 42.84818897582267
+      }
+    }
+  }
+}, {
+  "id" : "057",
+  "name" : "Villabuena de Álava/Eskuernaga",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 527445.846999771,
+        "y" : 4710834.60668112
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.6657080892147205,
+        "y" : 42.54941850470254
+      }
+    }
+  }
+}, {
+  "id" : "059",
+  "name" : "Vitoria-Gasteiz",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 526776.60765916,
+        "y" : 4743864.59894248
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.672298961680124,
+        "y" : 42.84689095523347
+      }
+    }
+  }
+}, {
+  "id" : "060",
+  "name" : "Yécora/Iekora",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 543493.399411479,
+        "y" : 4713127.89386179
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.4700799301770027,
+        "y" : 42.569333596249166
+      }
+    }
+  }
+}, {
+  "id" : "061",
+  "name" : "Zalduondo",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 553354.662576805,
+        "y" : 4748297.14968667
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.3466225532060863,
+        "y" : 42.885411940343616
+      }
+    }
+  }
+}, {
+  "id" : "062",
+  "name" : "Zambrana",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 510009.167558209,
+        "y" : 4723183.40144437
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.8778698836165395,
+        "y" : 42.6610507118431
+      }
+    }
+  }
+}, {
+  "id" : "018",
+  "name" : "Zigoitia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 522032.246057465,
+        "y" : 4756480.74791038
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.729865771822285,
+        "y" : 42.960652626939186
+      }
+    }
+  }
+}, {
+  "id" : "063",
+  "name" : "Zuia",
+  "geoLocation" : {
+    "position" : {
+      "ETRS89" : {
+        "standard" : "ETRS89",
+        "x" : 514697.397067891,
+        "y" : 4755975.65442832
+      },
+      "GOOGLE" : {
+        "standard" : "GOOGLE",
+        "x" : -2.819810038700886,
+        "y" : 42.95628110498458
+      }
+    }
+  }
+} ]

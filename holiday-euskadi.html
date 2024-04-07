@@ -50,17 +50,26 @@
                 $('#municipality-select').val("");
             } else {
                 $.ajax({
-                    url: "https://api-calendario-laboral.online/api/v1/municipalities"
-                }).then(function(data) {
-                    data.forEach((item) => {
-                        if (item.territory_code === territory_code) {
-                            $('#municipality-select').append($('<option>', {value: item.municipality_code, text: item.municipality_name_es}));
-                        }
-                    });
+                    url: '/resources/node-red-contrib-holiday-euskadi/municipalities_' + territory_code + '.json',
+                    success: function(data) {
+                        try
+                        {
+                            data.forEach((item) => {
+                                $('#municipality-select').append($('<option>', {value: item.id, text: item.name}));
+                            });
 
-                    var municipality_code = $('#node-input-municipality').val();
-                    if (municipality_code !== "") {
-                        $('#municipality-select').val(municipality_code);
+                            var municipality_code = $('#node-input-municipality').val();
+                            if (municipality_code !== "") {
+                                $('#municipality-select').val(municipality_code);
+                            }
+                        }
+                        catch(error) 
+                        {
+                            RED.notify('Error: ' + error.toString());    
+                        }
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        RED.notify('Error ' + jqXHR.status.toString() + ': ' + textStatus);
                     }
                 });
             }
@@ -140,15 +149,24 @@
                 $('#municipality-select').empty().append('<option selected disabled hidden>Seleccione el municipio</option>');
                 
                 $.ajax({
-                    url: "https://api-calendario-laboral.online/api/v1/municipalities"
-                }).then(function(data) {
-                    data.forEach((item) => {
-                        if (item.territory_code === territory_code) {
-                            $('municipality-select').append($('<option>', {value: item.municipality_code, text: item.municipality_name_es}));
+                    url: '/resources/node-red-contrib-holiday-euskadi/municipalities_' + territory_code + '.json',
+                    success: function(data) {
+                        try
+                        {
+                            data.forEach((item) => {
+                                $('#municipality-select').append($('<option>', {value: item.id, text: item.name}));
+                            });
                         }
-                    });
+                        catch(error) 
+                        {
+                            RED.notify('Error: ' + error.toString());    
+                        }
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        RED.notify('Error ' + jqXHR.status.toString() + ': ' + textStatus);
+                    }
                 });
-    
+                
                 $('#municipality-select').prop('disabled', false);
             });
         });
@@ -156,5 +174,5 @@
 </script>
 
 <script type="text/html" data-help-name="holiday-euskadi">
-    <p>A simple node that converts the message payloads into all lower-case characters</p>
+    <p>Un nodo para determinar los días festivos en un municipio de Euskadi.</p>
 </script>

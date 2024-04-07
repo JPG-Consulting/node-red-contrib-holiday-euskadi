@@ -58,8 +58,8 @@
                     return;
             }
 
-            // El municipio, por el API, trae el codigo de territorio por delante.
-            var municipality = parseInt(config.municipality.substring(2));
+            // El municipio, por el API, viene como cadena y trae un cero por delante.
+            var municipality = parseInt(config.municipality);
 
 			const OpenDataEuskadi = require('./libs/OpenDataEuskadi.js');
 		    OpenDataEuskadi.getCalendarioLaboral(currentDate, { date: true, territory: territory, municipality: municipality })
