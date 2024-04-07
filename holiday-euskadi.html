@@ -49,8 +49,9 @@
                 $('#municipality-select').prop('disabled', 'disabled');
                 $('#municipality-select').val("");
             } else {
+                // NORA
                 $.ajax({
-                    url: '/resources/node-red-contrib-holiday-euskadi/municipalities_' + territory_code + '.json',
+                    url: 'https://api.euskadi.eus/nora/states/16/counties/' + territory_code + '/municipalities?summarized=true',
                     success: function(data) {
                         try
                         {
@@ -148,8 +149,9 @@
                 var territory_code = $('#node-input-territory').val();
                 $('#municipality-select').empty().append('<option selected disabled hidden>Seleccione el municipio</option>');
                 
+                // NORA
                 $.ajax({
-                    url: '/resources/node-red-contrib-holiday-euskadi/municipalities_' + territory_code + '.json',
+                    url: 'https://api.euskadi.eus/nora/states/16/counties/' + territory_code + '/municipalities?summarized=true',
                     success: function(data) {
                         try
                         {
